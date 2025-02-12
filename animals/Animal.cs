@@ -9,7 +9,7 @@ public interface IInventory
     int Number { get; }
 }
 
-// Базовые классы
+// Базовый класс Animal
 public abstract class Animal : IAlive, IInventory
 {
     public int Food { get; protected set; }

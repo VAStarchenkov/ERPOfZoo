@@ -1,4 +1,4 @@
-// Вещи
+// Создание абстрактного класса - вещи
 public abstract class Thing : IInventory
 {
     public int Number { get; }

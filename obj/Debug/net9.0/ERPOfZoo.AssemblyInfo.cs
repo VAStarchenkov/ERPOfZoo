@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERPOfZoo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695090b1ca7de52095d470abb7d984e30c289d71")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERPOfZoo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERPOfZoo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

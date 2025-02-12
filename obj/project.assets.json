@@ -112,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vadimstarchenkov/Desktop/ERPOfZoo/ERPOfZoo.csproj",
+      "projectUniqueName": "/Users/vadimstarchenkov/Desktop/ERPOFZOO2/ERPOfZoo.csproj",
       "projectName": "ERPOfZoo",
-      "projectPath": "/Users/vadimstarchenkov/Desktop/ERPOfZoo/ERPOfZoo.csproj",
+      "projectPath": "/Users/vadimstarchenkov/Desktop/ERPOFZOO2/ERPOfZoo.csproj",
       "packagesPath": "/Users/vadimstarchenkov/.nuget/packages/",
-      "outputPath": "/Users/vadimstarchenkov/Desktop/ERPOfZoo/obj/",
+      "outputPath": "/Users/vadimstarchenkov/Desktop/ERPOFZOO2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vadimstarchenkov/.nuget/NuGet/NuGet.Config"

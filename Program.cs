@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 
-// Программа
+// Основной код запуска программы
 class Program
 {
     static void Main()
     {
         Console.WriteLine("Добро подаловать в систему по учету данных зоопарка!");
 
+        // Создание сервиса
         var serviceProvider = new ServiceCollection()
             .AddSingleton<VetClinic>()
             .AddSingleton<Zoo>()
@@ -16,6 +17,7 @@ class Program
         
         var zoo = serviceProvider.GetRequiredService<Zoo>();
         
+        // Взаимодествие с пользовтелем
         while (true)
         {
             Console.WriteLine("\nВыберите действие:");
@@ -31,6 +33,7 @@ class Program
             
             switch (key.KeyChar)
             {
+                // Добавление животного
                 case '1':
                     Console.WriteLine("Выберите животное (Monkey, Rabbit, Tiger, Wolf):");
                     string? animalType = Console.ReadLine();
@@ -50,6 +53,8 @@ class Program
                     }
                     else Console.WriteLine("Некорректный номер животного.");
                     break;
+                
+                // Добавление вещи
                 case '2':
                     Console.WriteLine("Выберите предмет (Table, Computer):");
                     string? thingType = Console.ReadLine();
@@ -67,15 +72,22 @@ class Program
                     }
                     else Console.WriteLine("Некорректный номер.");
                     break;
+                
+                // Получение списка животных, доступных для контактного зоопарка
                 case '3':
                     zoo.ListInteractiveAnimals();
                     break;
+                
+                // Получение общего количества потребление еды всеми животными
                 case '4':
                     zoo.ReportFoodConsumption();
                     break;
+                
+                // Общая инвентаризация
                 case '5':
                     zoo.ListInventory();
                     break;
+
                 default:
                     Console.WriteLine("Некорректная команда, попробуйте снова.");
                     break;

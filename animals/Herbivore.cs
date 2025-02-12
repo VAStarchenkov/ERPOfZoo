@@ -1,3 +1,4 @@
+// Класс тровоядные животные
 public abstract class Herbivore : Animal
 {
     public int Kindness { get; }

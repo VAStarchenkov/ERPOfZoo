@@ -1,4 +1,4 @@
-// Конкретные животные
+// Конкретные классы животных
 public class Monkey : Herbivore
 {
     public Monkey(int number) : base("Monkey", 3, number, 6) {}

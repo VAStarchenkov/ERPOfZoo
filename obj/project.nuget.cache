@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dsfgj5jCRMc=",
+  "dgSpecHash": "pEuS6NrcYhw=",
   "success": true,
-  "projectFilePath": "/Users/vadimstarchenkov/Desktop/ERPOfZoo/ERPOfZoo.csproj",
+  "projectFilePath": "/Users/vadimstarchenkov/Desktop/ERPOFZOO2/ERPOfZoo.csproj",
   "expectedPackageFiles": [
     "/Users/vadimstarchenkov/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "/Users/vadimstarchenkov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
